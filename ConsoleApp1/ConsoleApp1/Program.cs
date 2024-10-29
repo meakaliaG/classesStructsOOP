@@ -97,6 +97,8 @@
             //Experimenting with Inheritance
             Paladin knight = new Paladin("Sir Arthur", huntingBow);
             knight.PrintStatsInfo();
+
+
         }
     }
 }
