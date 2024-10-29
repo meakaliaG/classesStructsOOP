@@ -1,4 +1,6 @@
-﻿namespace classes_structs_oop
+﻿using ConsoleApp1;
+
+namespace classes_structs_oop
 {
     public class Character
     {
@@ -98,7 +100,12 @@
             Paladin knight = new Paladin("Sir Arthur", huntingBow);
             knight.PrintStatsInfo();
 
+            //Testing external files
+            adventurer mike = new adventurer("Mike");
+            mike.PrintStatsInfo();
 
+            dude dave = new dude("Dave");
+            dave.PrintStatsInfo();
         }
     }
 }
